@@ -1,0 +1,26 @@
+# Installed runtimes and large third-party models
+/CapsWriter-Offline/
+/SpeechDesk/
+/downloads/
+/.setup-cache/
+
+# Local data, recordings, results and authentication
+/desktop/data/
+/识别结果/
+*.lnk
+.env
+.env.*
+
+# Reproducible build outputs
+/desktop/.venv/
+/desktop/build/
+/desktop/*.spec
+__pycache__/
+*.py[cod]
+*.egg-info/
+/validation/
+
+# Replaced legacy entry points kept only in the existing local installation
+/tools/Launch-CapsWriter.ps1
+/启动语音输入.cmd
+/停止语音识别.cmd
